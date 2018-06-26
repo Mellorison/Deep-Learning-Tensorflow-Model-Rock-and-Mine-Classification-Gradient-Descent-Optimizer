@@ -111,7 +111,6 @@ biases = {
 	'out' : tf.Variable(tf.truncated_normal([n_class]))
 }
 
-
 # Initialize all the variables
 init = tf.global_variables_initializer()
 
